@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row-bg {
+  height: 100vh;
+  background: url(../img/bg.jpg);
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weight-container {
+  position: relative;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background: rgb(10, 185, 238);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  #delete {
+    position: absolute;
+    bottom: 50px;
+  }
+}
+
+#header {
+  position: absolute;
+  top: 6%;
+  color: white;
+}
+
+input {
+  position: absolute;
+  top: 320px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.result {
+  width: 200px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  top: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 130px;
+
+  button {
+    margin: 10px;
+  }
+}
